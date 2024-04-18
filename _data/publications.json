@@ -1,40 +1,218 @@
 [
-	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
-		"author": [
-			{
-				"family": "Naylor",
-				"given": "P."
-			},
-			{
-				"family": "Laé",
-				"given": "M."
-			},
-			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
-				"given": "T."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					2
-				]
-			]
-		}
-	}
+    {
+        "id": "http://zotero.org/groups/2386072/items/KJAMBROSEN2021",
+        "type": "article-journal",
+        "title": "Using connectomics for predictive assessment of brain parcellations",
+        "container-title": "NeuroImage",
+        "page": "1-18",
+        "volume": "238",
+        "source": "NeuroImage",
+        "DOI": "10.1016/j.neuroimage.2021.118170",
+        "author": [
+            {
+                "family": "Albers",
+                "given": "KJ"
+            },
+            {
+                "family": "Ambrosen",
+                "given": "KS"
+            },
+            {
+                "family": "Liptrot",
+                "given": "MG"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
+            },
+            {
+                "family": "Schmidt",
+                "given": "MN"
+            },
+            {
+                "family": "Mørup",
+                "given": "M"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2021"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/groups/2386072/items/YAZNAR2021",
+        "type": "article-journal",
+        "title": "In vivo tensor-valued diffusion MRI of focal demyelination in white and deep grey matter of rodents",
+        "container-title": "NeuroImage. Clinical",
+        "page": "1-9",
+        "volume": "30",
+        "source": "NeuroImage. Clinical",
+        "DOI": "10.1016/j.nicl.2021.102675",
+        "author": [
+            {
+                "family": "He",
+                "given": "Y"
+            },
+            {
+                "family": "Aznar",
+                "given": "S"
+            },
+            {
+                "family": "Siebner",
+                "given": "HR"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2021"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/groups/2386072/items/LUNDELL2021",
+        "type": "article-journal",
+        "title": "Cytosolic diffusivity and microscopic anisotropy of N-acetyl aspartate in human white matter with diffusion-weighted MRS at 7 T",
+        "container-title": "NMR in Biomedicine",
+        "page": "1-14",
+        "volume": "34",
+        "issue": "5",
+        "source": "NMR in Biomedicine",
+        "DOI": "10.1002/nbm.4304",
+        "author": [
+            {
+                "family": "Lundell",
+                "given": "H"
+            },
+            {
+                "family": "Ingo",
+                "given": "C"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
+            },
+            {
+                "family": "Ronen",
+                "given": "I"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2021"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/groups/2386072/items/PERENS2021",
+        "type": "article-journal",
+        "title": "An Optimized Mouse Brain Atlas for Automated Mapping and Quantification of Neuronal Activity Using iDISCO+ and Light Sheet Fluorescence Microscopy",
+        "container-title": "Neuroinformatics",
+        "page": "433-446",
+        "volume": "19",
+        "issue": "3",
+        "source": "Neuroinformatics",
+        "DOI": "10.1007/s12021-020-09490-8",
+        "author": [
+            {
+                "family": "Perens",
+                "given": "J"
+            },
+            {
+                "family": "Salinas",
+                "given": "CG"
+            },
+            {
+                "family": "Skytte",
+                "given": "JL"
+            },
+            {
+                "family": "Roostalu",
+                "given": "U"
+            },
+            {
+                "family": "Dahl",
+                "given": "AB"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
+            },
+            {
+                "family": "Wichern",
+                "given": "F"
+            },
+            {
+                "family": "Barkholt",
+                "given": "P"
+            },
+            {
+                "family": "Vrang",
+                "given": "N"
+            },
+            {
+                "family": "Jelsing",
+                "given": "J"
+            },
+            {
+                "family": "Hecksher-Sørensen",
+                "given": "J"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2021"
+                ]
+            ]
+        }
+    },
+    {
+        "id": "http://zotero.org/groups/2386072/items/SKOVEN2021",
+        "type": "article-journal",
+        "title": "Profiling the transcallosal response of rat motor cortex evoked by contralateral optogenetic stimulation of glutamatergic cortical neurons",
+        "container-title": "bioRxiv",
+        "page": "1-31",
+        "source": "bioRxiv",
+        "DOI": "10.1101/2021.04.15.439619",
+        "author": [
+            {
+                "family": "Skoven",
+                "given": "C"
+            },
+            {
+                "family": "Tomasevic",
+                "given": "L"
+            },
+            {
+                "family": "Kvitsiani",
+                "given": "D"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
+            },
+            {
+                "family": "Siebner",
+                "given": "HR"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2021"
+                ]
+            ]
+        }
+    }
 ]
