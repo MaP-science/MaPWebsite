@@ -1,14 +1,8 @@
-- date: 15/04/24
-  title: "NEWS"
+- date: 08/05/24
+  headline: "Job Opportunity: Postdoc in mapping brain microstructure and its functional correlates"
+  title: "Postdoc in mapping brain microstructure and its functional correlates"
   tags:
-    - look
-    - news
-  content: lots of news here lots of news here lots of news here lots of news here 
-
-
-- date: 15/04/24
-  title: "EVENTS"
-  tags:
-    - look
-    - events
-  content: lots of events here lots of events here lots of events here lots of events here
+    - job opportunity
+    - microstructure
+    - postdoc 
+  content: Are you fascinated by modeling tissue microstructure from high quality diffusion MRI acquisitions, exploring its morphological validity against novel 3D histology imaging technologies and investigating its correlates to the communication speed of brain pathways? How does disease impact the microstructure, and can you predict the impact on saltatory conduction velocity along white matter axons? Are you curious if biophysical models or machine learning are the best modeling approaches? Try it out! Find out more <a href="https://www.drcmr.dk/vacancies/item/1411-the-capital-region-of-copenhagen-is-looking-for-a-postdoc-in-mapping-brain-microstructure-and-its-functional-correlates">here</a>.
