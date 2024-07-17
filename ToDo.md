@@ -7,7 +7,7 @@
 - Check your email if I added it 
 
 
-## From specific people 
+## From specific people
 
 ### Tim
 - Read through text and reword/add 
