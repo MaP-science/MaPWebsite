@@ -1,5 +1,5 @@
 
-# Required inputs
+# Required Inputs
 
 ## From each member
 - Provide a list of top/recent publications including a key picture and a few sentence summary (abstract may do)
@@ -14,7 +14,7 @@
 - Provide funding information 
 
 
-### Julie 
+### Julie
 - Provide a colour photo
 
 ### Anyone who'll help 
