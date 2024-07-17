@@ -6,55 +6,86 @@ sitemap: false
 permalink: /team/
 ---
 
-<h1>{{page.title}}</h1>
+<!-- Senior Researchers -->
 
-<!-- Staff -->
-
-<h2><a id="staff"></a>Staff</h2>
-{% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
+<h2><a id="Senior Researchers"></a> <b>Senior Researchers</b></h2>
+{% assign members = site.posts | where: 'category', 'senior' | sort: 'date' %}
 {% for member in members %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="filter: grayscale(100%); max-width: 100px;"/>
-            </a>
-        </div>
-
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
+<div class="row">
+    <div class="col-md-3">
+        <div class="card team-member-card">
+            <div class="row mt-3">
+                <div class="col-md-15 d-flex justify-content-center">
+                    <a href={{member.url}}>
+                        <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                            class="card-img img-responsive img-thumbnail"
+                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                    </a>
+                </div>
+                <div class="col-md-15">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">{{ member.title }}</h4>
+                        <p class="card-text">{{ member.email }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 {% endfor %}
+</div>
+
+<!-- Postdocs -->
+<h2><a id="Postdocs"></a><b>Postdocs</b></h2>
+{% assign members = site.posts | where: 'category', 'postdoc' | sort: 'date' %}
+<div class="row">
+    {% for member in members %}
+    <div class="col-md-3">
+        <div class="card team-member-card">
+            <div class="row mt-3">
+                <div class="col-md-15 d-flex justify-content-center">
+                    <a href={{member.url}}>
+                        <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                            class="card-img img-responsive img-thumbnail"
+                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                    </a>
+                </div>
+                <div class="col-md-15">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">{{ member.title }}</h4>
+                        <p class="card-text">{{ member.email }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
+
 
 <!-- Students -->
-
-<h2><a id="student"></a>Students</h2>
+<h2><a id="student"></a><b>Students</b></h2>
 {% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
-{% for member in members %}
-<div class="card team-member-card">
-    <div class="row mt-3">
-        <div class="col-md-2">
-            <a href={{member.url}}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img img-responsive img-thumbnail"
-                    style="filter: grayscale(100%); max-width: 100px;"/>
-            </a>
-        </div>
-
-        <div class="col-md-10">
-            <div class="card-body">
-            <h4 class="card-title">{{ member.title }}</h4>
-            <p class="card-text">{{ member.role }}</p>
+<div class="row">
+    {% for member in members %}
+    <div class="col-md-3">
+        <div class="card team-member-card">
+            <div class="row mt-3">
+                <div class="col-md-15 d-flex justify-content-center">
+                    <a href={{member.url}}>
+                        <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                            class="card-img img-responsive img-thumbnail"
+                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                    </a>
+                </div>
+                <div class="col-md-15">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">{{ member.title }}</h4>
+                        <p class="card-text">{{ member.email }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+{% endfor %}
 </div>
 
-{% endfor %}
