@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.8.6/css/academicons.min.css">
+</head>
+
 <div class="col-sm-12">
     <div class=row>
         <nav aria-label="breadcrumb">
@@ -16,12 +21,11 @@ layout: default
         <!-- Avatar -->
         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
              class="img-circle"
-             style="filter: grayscale(100%); max-width: 200px;"/>
+             style="filter: grayscale(0%); max-width: 200px;"/>
 
         <!-- Name & Role -->
         <h1>{{ page.title }}</h1>
         <h3>{{ page.role }}</h3>
-
         <!-- Social -->
         <ul class="list-inline list-unstyled">
             <!-- Twitter -->
@@ -46,19 +50,22 @@ layout: default
             {% endif %}
             <!-- Orcid -->
             {% if page.social.orcid %}
-                <li><a target="blank" href="{{page.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
+                <li><a target="blank" href="{{page.social.orcid}}"><i class="ai ai-orcid"></i></a></li>
             {% endif %}
             <!-- Research Gate -->
             {% if page.social.research-gate %}
                 <li><a target="blank" href="{{page.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
             {% endif %}
         </ul>
+
+        <p>{{ page.email }}</p>
+
     </div>
 
     <!-- Education -->
     <div class="row">
         <h3>Education</h3>
-        <ul class="list-unstyled">
+        <ul class="list">
             {% for education in page.education %}
                 <li>{{education}}</li>
             {% endfor %}
@@ -67,7 +74,8 @@ layout: default
 
     <!-- Bio -->
     <div class="row">
-        <h3>Bio</h3>
+        <h3>About</h3>
         {{ content }}
+        <br> </br>
     </div>
 </div>
