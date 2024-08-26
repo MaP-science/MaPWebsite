@@ -6,9 +6,13 @@ sitemap: false
 permalink: /team/
 ---
 
+<h1>Meet the Team</h1>
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
 <!-- Senior Researchers -->
 
-<h2><a id="Senior Researchers"></a> <b>Senior Researchers</b></h2>
+<h3><a id="Senior Researchers"></a> <b>Senior Researchers</b></h3>
 {% assign members = site.posts | where: 'category', 'senior' | sort: 'date' %}
 {% for member in members %}
 <div class="row">
@@ -34,8 +38,10 @@ permalink: /team/
 {% endfor %}
 </div>
 
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
 <!-- Postdocs -->
-<h2><a id="Postdocs"></a><b>Postdocs</b></h2>
+<h3><a id="Postdocs"></a><b>Postdocs</b></h3>
 {% assign members = site.posts | where: 'category', 'postdoc' | sort: 'date' %}
 <div class="row">
     {% for member in members %}
@@ -61,9 +67,39 @@ permalink: /team/
 {% endfor %}
 </div>
 
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
+<!-- Research Assistants -->
+<h3><a id="Research Assistants"></a><b>Research Assistants</b></h3>
+{% assign members = site.posts | where: 'category', 'assistant' | sort: 'date' %}
+<div class="row">
+    {% for member in members %}
+    <div class="col-md-3">
+        <div class="card team-member-card">
+            <div class="row mt-3">
+                <div class="col-md-15 d-flex justify-content-center">
+                    <a href={{member.url}}>
+                        <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                            class="card-img img-responsive img-thumbnail"
+                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                    </a>
+                </div>
+                <div class="col-md-15">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">{{ member.title }}</h4>
+                        <p class="card-text">{{ member.email }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
 <!-- Students -->
-<h2><a id="student"></a><b>Students</b></h2>
+<h3><a id="student"></a><b>Students</b></h3>
 {% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
 <div class="row">
     {% for member in members %}
@@ -89,3 +125,4 @@ permalink: /team/
 {% endfor %}
 </div>
 
+<br>

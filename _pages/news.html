@@ -7,14 +7,23 @@ permalink: /news.html
 ---
 <h1>{{page.title}}</h1>
 
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
 <ul class="list-unstyled">
     {% for article in site.data.news %}
         <li class="media">
             <div class="media-body">
-            <h4 class="mt-0 mb-1">{{ article.title }}</h4>
+                <h3 class="mt-0 mb-1">
+                    <img src="{{ site.url }}{{ site.baseurl }}/images/logo/{{ article.logo | downcase }}_logo.png" style="width: 130px; height: 40px; margin-right: 10px;">
+                    {{ article.title }}
+                </h3>
             <p><small>{{ article.date }}</small></p>
             {{ article.content }}
             </div>
         </li>
+        <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
     {% endfor %}
+    <br>
 </ul>
+
+<br>

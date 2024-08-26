@@ -1,9 +1,11 @@
 
 <div class="well">
-<h4>News</h4>
+<h3>News:</h3>
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
 {% for article in site.data.news limit:5 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}<br></p>
+<p><b>{{ article.date }}</b><br>{{ article.headline | markdownify}}</p>
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 {% endfor %}
 
 <h4><a href="{{ site.url }}{{ site.baseurl }}/news">... see all News</a></h4>
