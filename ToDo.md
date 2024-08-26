@@ -2,7 +2,7 @@
 # Required Inputs
 
 ## From each member
-- Provide a list of top/recent publications including a key picture and a few sentence summary (abstract may do)
+- Provide a list of recent publications. If you think they should be in highlighted publications include a key picture and a few sentence summary (abstract may do)
 - Update member page with bio and education 
 - Check your email if I added it 
 - Check the Gallery page and if there is a picture of you:

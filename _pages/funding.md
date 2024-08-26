@@ -8,7 +8,9 @@ permalink: /funding.html
 
 # Funding Sources 
 
- Tim will give an overview of funding sources here with logos.
+<hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
+
+Tim will give an overview of funding sources here with logos.
 
 Here are some that might be relevant! 
 
