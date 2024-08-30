@@ -53,7 +53,7 @@ Developing and validating imaging pipelines for high-quality and high-resolution
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
-### High-resolution lightsheet imaging 
+### High-resolution light-sheet microscopy imaging 
 
 <div class="row">
 <div class="col-sm-12 clearfix vcenter">
@@ -61,7 +61,7 @@ Developing and validating imaging pipelines for high-quality and high-resolution
 </div>
 </div>
 
-High-resolution lightsheet imaging is a cutting-edge technique that allows for the detailed visualization of biological specimens with minimal photodamage, enabling researchers to capture precise 3D images of complex structures at cellular and subcellular levels. This method is particularly valuable in developmental biology, neuroscience, and tissue engineering, as it provides high-resolution insights into dynamic processes within living organisms.
+Unlike traditional microscopy, light-sheet (LS) microscopy is an advanced imaging technique that enables the visualization of entire biological specimens without sectioning. LS microscopy offers significant advantages, including minimal photodamage and high resolution on a micro-metre scale. This technique is particularly valuable in fields like developmental biology, neuroscience, and tissue engineering. Our work focuses on using LS microscopy to create a micro-metre scale connectome of rodents, which has potential applications in drug discovery, studying brain connections, metabolism, and more.
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
