@@ -61,7 +61,7 @@ Developing and validating imaging pipelines for high-quality and high-resolution
 </div>
 </div>
 
-Unlike traditional microscopy, light-sheet (LS) microscopy is an advanced imaging technique that enables the visualization of entire biological specimens without sectioning. LS microscopy offers significant advantages, including minimal photodamage and high resolution on a micro-metre scale. This technique is particularly valuable in fields like developmental biology, neuroscience, and tissue engineering. Our work focuses on using LS microscopy to a micro-metre scale connectome of rodents, which has potential applications in drug discovery, studying brain connections, metabolism, and more.
+Unlike traditional microscopy, light-sheet (LS) microscopy is an advanced imaging technique that enables the visualization of entire biological specimens without sectioning. LS microscopy offers significant advantages, including minimal photodamage and high resolution on a micro-metre scale. This technique is particularly valuable in fields like developmental biology, neuroscience, and tissue engineering. Our work focuses on using LS microscopy to create a micro-metre scale connectome of rodents, which has potential applications in drug discovery, studying brain connections, metabolism, and more.
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
