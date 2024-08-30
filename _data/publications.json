@@ -1,5 +1,55 @@
 [
     {
+		"id": "http://zotero.org/users/2282383/items/Q25BFYEZ",
+		"type": "article-journal",
+		"abstract": "We enable the estimation of the per-axon axial diffusivity from single encoding, strongly diffusion-weighted, pulsed gradient spin echo data. Additionally, we improve the estimation of the per-axon radial diffusivity compared to estimates based on spherical averaging. The use of strong diffusion weightings in magnetic resonance imaging (MRI) allows to approximate the signal in white matter as the sum of the contributions from only axons. At the same time, spherical averaging leads to a major simplification of the modeling by removing the need to explicitly account for the unknown distribution of axonal orientations. However, the spherically averaged signal acquired at strong diffusion weightings is not sensitive to the axial diffusivity, which cannot therefore be estimated although needed for modeling axons — especially in the context of multi-compartmental modeling. We introduce a new general method for the estimation of both the axial and radial axonal diffusivities at strong diffusion weightings based on kernel zonal modeling. The method could lead to estimates that are free from partial volume bias with gray matter or other isotropic compartments. The method is tested on publicly available data from the MGH Adult Diffusion Human Connectome project. We report reference values of axonal diffusivities based on 34 subjects, and derive estimates of axonal radii from only two shells. The estimation problem is also addressed from the angle of the required data preprocessing, the presence of biases related to modeling assumptions, current limitations, and future possibilities.",
+		"container-title": "Medical Image Analysis",
+		"DOI": "10.1016/j.media.2023.102767",
+		"ISSN": "13618415",
+		"journalAbbreviation": "Medical Image Analysis",
+		"language": "en",
+		"page": "102767",
+		"source": "DOI.org (Crossref)",
+		"title": "Axial and radial axonal diffusivities and radii from single encoding strongly diffusion-weighted MRI",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S1361841523000282",
+		"volume": "86",
+		"author": [
+			{
+				"family": "Pizzolato",
+				"given": "Marco"
+			},
+			{
+				"family": "Canales-Rodríguez",
+				"given": "Erick Jorge"
+			},
+			{
+				"family": "Andersson",
+				"given": "Mariam"
+			},
+			{
+				"family": "Dyrby",
+				"given": "Tim B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					5
+				]
+			]
+		}
+	},
+    {
         "id": "http://zotero.org/groups/2386072/items/KJAMBROSEN2021",
         "type": "article-journal",
         "title": "Using connectomics for predictive assessment of brain parcellations",
