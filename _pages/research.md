@@ -29,7 +29,7 @@ Enhancements in tractography and brain connectivity mapping aim to improve and e
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
 
-### Active Imaging of Tissue Microstructure
+### Microstructural Imaging
 
 <div class="row">
 <div class="col-sm-12 clearfix vcenter">
@@ -37,6 +37,7 @@ Enhancements in tractography and brain connectivity mapping aim to improve and e
 </div>
 </div>
 
+Within the team we are actively developing novel high resolution MRI scan sequences with the aim of exploring tissue microstructure in the cerebral cortex, with an emphasis on the verification and validation of cytoarchitectural changes across disease progression. This research goes hand-in-hand with the work 
 Active imaging techniques are employed to explore tissue microstructure, with an emphasis on the verification and validation of new and optimized diffusion MRI sequence designs. These techniques aim to probe specific and novel tissue microstructures, offering potential improvements in both clinical and pre-clinical imaging practices.
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
@@ -65,6 +66,18 @@ High-resolution lightsheet imaging is a cutting-edge technique that allows for t
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
+### High Resolution Micro-CT Imaging
+
+<div class="row">
+<div class="col-sm-12 clearfix vcenter">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/segmentation.png" style="width: 800px">
+</div>
+</div>
+
+Machine learning segmentation of microCT images leverages advanced algorithms to automatically identify and differentiate intricate structures within high-resolution 3D scans, enabling more accurate and efficient analysis of complex biological and material samples. This approach significantly enhances the precision of microCT imaging by reducing manual processing time and improving the consistency of segmentation results across large datasets.
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
 ### Machine Learning for Segmentation of Cells
 
 <div class="row">
@@ -74,5 +87,6 @@ High-resolution lightsheet imaging is a cutting-edge technique that allows for t
 </div>
 
 Machine learning segmentation of microCT images leverages advanced algorithms to automatically identify and differentiate intricate structures within high-resolution 3D scans, enabling more accurate and efficient analysis of complex biological and material samples. This approach significantly enhances the precision of microCT imaging by reducing manual processing time and improving the consistency of segmentation results across large datasets.
+
 
 <br>
