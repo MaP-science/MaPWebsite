@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+<hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
+
 ## Objectives:
 
 The MAP group is a research lab based in the Captial Region of Denmark near Copenhagen. We aim to achieve a fundamental understanding of brain structure and its plasticity at various levels. This ranges from studying isolated tissue compartments, such as microstructures including cellular spaces, neurons, and cell membranes, to visualizing and statistically analyzing whole brain connectivity networks. The goal is to understand the impact of these structures and networks on both normal and disrupted brain function.

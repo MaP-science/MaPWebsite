@@ -7,15 +7,61 @@ permalink: /publications/
 ---
 
 <h1>{{page.title}}</h1>
+<hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
+
+
+<h2>Recent Publication Highlights:</h2>
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
+<h3><b> Winther et al. Frontiers in Neuroinformatics. 2024</b> </h3>
+<h4> <i>Exploring white matter dynamics and morphology through interactive numerical phantoms: the White Matter Generator</i></h4>
+
+<div class="row justify-content-center">
+    <div class="col-sm-12">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/papers/winther24.png" style="width: 800px">
+    </div>
+    <p><b> Abstract: </b> <i> "Brain white matter is a dynamic environment that continuously adapts and reorganizes in response to stimuli and pathological changes. Glial cells, especially, play a key role in tissue repair, inflammation modulation, and neural recovery. The movements of glial cells and changes in their concentrations can influence the surrounding axon morphology. We introduce the White Matter Generator (WMG) tool to enable the study of how axon morphology is influenced through such dynamical processes, and how this, in turn, influences the diffusion-weighted MRI signal. This is made possible by allowing interactive changes to the configuration of the phantom generation throughout the optimization process. The phantoms can consist of myelinated axons, unmyelinated axons, and cell clusters, separated by extra-cellular space. Due to morphological flexibility and computational advantages during the optimization, the tool uses ellipsoids as building blocks for all structures; chains of ellipsoids for axons, and individual ellipsoids for cell clusters. After optimization, the ellipsoid representation can be converted to a mesh representation which can be employed in Monte-Carlo diffusion simulations. This offers an effective method for evaluating tissue microstructure models for diffusion-weighted MRI in controlled bio-mimicking white matter environments. Hence, the WMG offers valuable insights into white matter's adaptive nature and implications for diffusion-weighted MRI microstructure models, and thereby holds the potential to advance clinical diagnosis, treatment, and rehabilitation strategies for various neurological disorders and injuries."
+    </i> </p>
+</div>
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
+<h3><b> Andersson et al. Frontiers in Neuroimage. 2022</b> </h3>
+<h4> <i>Does powder averaging remove dispersion bias in diffusion MRI diameter estimates within real 3D axonal architectures?</i></h4>
+
+<div class="row justify-content-center">
+    <div class="col-sm-12">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/papers/andersson22.png" style="width: 800px">
+    </div>
+    <p><b> Abstract: </b> <i>"Noninvasive estimation of axon diameter with diffusion MRI holds the potential to investigate the dynamic properties of the brain network and pathology of neurodegenerative diseases. Recent studies use powder averaging to account for complex white matter architectures, but these have not been validated for real axonal geometries from regions that contain fibre crossings. Here, we present 120-304 μm long segmented axons from X-ray nano-holotomography volumes of a splenium and crossing fibre region of a vervet monkey brain. We show that the axons in the complex crossing fibre region, which contains callosal, association, and corticospinal connections, exhibit a wider diameter distribution than those of the splenium region. To accurately estimate the axon diameter in these regions, therefore, sensitivity to a wide range of diameters is required. We demonstrate how the q-value, b-value, signal-to-noise ratio and the assumed intra-axonal parallel diffusivity influence the range of measurable diameters with powder average approaches. Furthermore, we show how Gaussian distributed noise results in a wider range of measurable diameter at high b-values than Rician distributed noise, even at high signal-to-noise ratios of 100. The number of gradient directions is also shown to impose a lower bound on measurable diameter. Our results indicate that axon diameter estimation can be performed with only few b-shells, and that additional shells do not improve the accuracy of the estimate. For strong gradients available on human Connectom and preclinical scanners, Monte Carlo simulations of diffusion confirm that powder averaging techniques succeed in providing accurate estimates of axon diameter across a range of diameters, sequence parameters and diffusion times, even in complex white matter architectures. At relatively low b-values, the diameter estimate becomes sensitive to axonal microdispersion and the intra-axonal parallel diffusivity shows time dependency at both in vivo and ex vivo intrinsic diffusivities."
+    </i></p>
+</div>
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
+
+<h2>List of Recent Publications:</h2>
+
+<h4><i> For a more complete list please visit the personal websites of each researcher</i></h4>
 
 <div class="panel-group" id="accordion">
     <div class="panel panel-default">
 
     {% for publi in site.data.publications %}
         <div class="panel-heading">
+    
+        <!-- add year heading for each year -->
+        {% assign year = publi.issued.date-parts | jsonify | slice: 3,4 %}
+        {% if year != year_prev %}
+            <h4><b>{{ year }}</b></h4>
+            {% assign year_prev = year %}   
+        {% endif %}
+
             <a data-toggle="collapse" data-parent="#accordion"
                href="#collapse{{forloop.index}}"
-               style="color: inherit;">
+               style="color: #6c6868; text-decoration: none;">
+
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
             {% for author in publi.author %}

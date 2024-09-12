@@ -8,6 +8,8 @@ permalink: /gallery.html
 
 # Gallery 
 
+<hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
+
 **Here, we share some snapshots of our research!**
 
 ---
