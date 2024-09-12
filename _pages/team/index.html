@@ -16,14 +16,14 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'senior' | sort: 'date' %}
 {% for member in members %}
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
         <div class="card team-member-card">
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-md-15 d-flex justify-content-center">
                     <a href={{member.url}}>
                         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                             class="card-img img-responsive img-thumbnail"
-                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                            style="filter: grayscale(0%); max-width: 235px; display: block; margin: 0 auto;"/>
                     </a>
                 </div>
                 <div class="col-md-15">
@@ -45,14 +45,14 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'postdoc' | sort: 'date' %}
 <div class="row">
     {% for member in members %}
-    <div class="col-md-3">
+    <div class="col-md-4">
         <div class="card team-member-card">
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-md-15 d-flex justify-content-center">
                     <a href={{member.url}}>
                         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                             class="card-img img-responsive img-thumbnail"
-                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                            style="filter: grayscale(0%); max-width: 235px; display: block; margin: 0 auto;"/>
                     </a>
                 </div>
                 <div class="col-md-15">
@@ -74,14 +74,14 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'assistant' | sort: 'date' %}
 <div class="row">
     {% for member in members %}
-    <div class="col-md-3">
+    <div class="col-md-4">
         <div class="card team-member-card">
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-md-15 d-flex justify-content-center">
                     <a href={{member.url}}>
                         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                             class="card-img img-responsive img-thumbnail"
-                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                            style="filter: grayscale(0%); max-width: 235px; display: block; margin: 0 auto;"/>
                     </a>
                 </div>
                 <div class="col-md-15">
@@ -103,14 +103,14 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
 <div class="row">
     {% for member in members %}
-    <div class="col-md-3">
+    <div class="col-md-4">
         <div class="card team-member-card">
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-md-15 d-flex justify-content-center">
                     <a href={{member.url}}>
                         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
                             class="card-img img-responsive img-thumbnail"
-                            style="filter: grayscale(0%); max-width: 180px; display: block; margin: 0 auto;"/>
+                            style="filter: grayscale(0%); max-width: 235px; display: block; margin: 0 auto;"/>
                     </a>
                 </div>
                 <div class="col-md-15">
@@ -124,5 +124,6 @@ permalink: /team/
     </div>
 {% endfor %}
 </div>
+
 
 <br>
