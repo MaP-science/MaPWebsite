@@ -24,12 +24,21 @@ The MAP group is a research lab based in the Captial Region of Denmark near Cope
     <div class="carousel-inner" markdown="0">
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/group_photo.png" height="4" alt="Slide 1" />
+            <div class="carousel-caption">
+                <p>Current team</p>
+              </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/dtu_compute.jpg" class="img-responsive" height="4" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/dtu_compute.png" class="img-responsive" height="4" alt="Slide 2" />
+            <div class="carousel-caption">
+                <p>DTU Compute</p>
+              </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/andersson2021.png" height="4" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/alexander19.png" height="4" alt="Slide 3" />
+             <div class="carousel-caption">
+                <p>Alexander DC, Dyrby TB, Nilsson M, Zhang H. Imaging brain microstructure with diffusion MRI: practicality and applications. NMR Biomed. 2019</p>
+              </div>
         </div>     
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -67,7 +76,7 @@ See our funding and ongoing projects at our [Funding page](funding).
 
 ## Research:
 
-We apply our research to clinical, pre-clinical, and cognitive research projects, as well as to clinical settings. To achieve this, we rely on expert knowledge from various research areas. This expertise is acquired through collaboration with colleagues at the DRCMR, DTU Compute, external members, and international partners working on diffusion MRI, scientific computing, and neuroanatomy.
+Our research focuses on developing non-invasive diffusion MRI and quantitative MRI techniques to push the limits of clinical microstructure imaging. We also use synchrotron imaging, such as X-ray Nano Holotomography (XNH), to quantify neuronal morphology and to map cytoarchitecture, and Light-Sheet Fluorescence Microscopy for cell-type-specific labeling. Our work generates large multi-modal 3D datasets to be analysed, from which we construct multi-modal brain atlases. We develop biophysical models to quantify microstructure and machine learning-based models for axon, myelin and soma 3D segmentation and quantifications as well as for brain connectom mapping, such as tractography-based methods.
 
 You can find a more indepth overview of our research at our [Research page](research).
 

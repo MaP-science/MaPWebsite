@@ -5,18 +5,11 @@ excerpt: "MaP Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
-# Research 
+# Overview of Research Areas
 
 <hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
 
-Overview of research areas: could use some of the paper images here or different ones 
-Please change the text - it is just whatever ChatGPT spat out to fill the space
-
-<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
-
-## Key areas: 
-
-### Tractography and Mapping of Brain Connectivity
+### MR Tractography and Mapping of Brain Connectivity
 
 <div class="row">
 <div class="col-sm-12 clearfix vcenter">
@@ -24,25 +17,12 @@ Please change the text - it is just whatever ChatGPT spat out to fill the space
 </div>
 </div>
 
-Enhancements in tractography and brain connectivity mapping aim to improve and extend current approaches. This includes efforts to better relate these structural connections to functional data obtained from techniques such as functional MRI (fMRI) and transcranial magnetic stimulation (TMS), thus providing a more comprehensive understanding of brain function.
+Tractography paragraph - Thina or Marco
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
 
-### Microstructural Imaging
-
-<div class="row">
-<div class="col-sm-12 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/microstructure.png" style="width: 800px">
-</div>
-</div>
-
-Within the team we are actively developing novel high resolution MRI scan sequences with the aim of exploring tissue microstructure in the cerebral cortex, with an emphasis on the verification and validation of cytoarchitectural changes across disease progression. This research goes hand-in-hand with the work 
-Active imaging techniques are employed to explore tissue microstructure, with an emphasis on the verification and validation of new and optimized diffusion MRI sequence designs. These techniques aim to probe specific and novel tissue microstructures, offering potential improvements in both clinical and pre-clinical imaging practices.
-
-<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
-
-### High-Quality and High-Resolution Diffusion MRI Imaging Pipelines
+### Magnetic Resonance Imaging for Cytoarchitecture and Myelin Imaging
 
 <div class="row">
 <div class="col-sm-12 clearfix vcenter">
@@ -50,11 +30,23 @@ Active imaging techniques are employed to explore tissue microstructure, with an
 </div>
 </div>
 
-Developing and validating imaging pipelines for high-quality and high-resolution diffusion MRI is essential for studying tissue microstructure. These pipelines are crucial for both ex vivo and in vivo imaging, particularly in pre-clinical research, to advance method development and ensure the reliability of imaging results.
+MRI paragraph - Mario or Emma
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
-### High-resolution light-sheet microscopy imaging 
+### Histological Imaging of Early Neuropathological Changes
+
+<div class="row">
+<div class="col-sm-12 clearfix vcenter">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/histology.png" style="width: 800px">
+</div>
+</div>
+
+We also focus on investigating early neuropathological changes in Alzheimer's disease by utilizing a combination of histology and advanced imaging techniques in a transgenic rat model. We employ immunofluorescence staining as a key method to visualize and analyze these early-stage alterations, allowing for a deeper understanding of the disease's progression. This approach enables us to explore the cellular and molecular mechanisms underlying Alzheimer's, contributing to the development of potential therapeutic interventions
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
+### Light-sheet Microscopy Imaging for Fibre Quantification
 
 <div class="row">
 <div class="col-sm-12 clearfix vcenter">
@@ -66,19 +58,19 @@ Unlike traditional microscopy, light-sheet (LS) microscopy is an advanced imagin
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
-### High Resolution Micro-CT Imaging
+### Synchrotron Imaging for Quantification of Anatomical Features
 
 <div class="row">
 <div class="col-sm-12 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/research/segmentation.png" style="width: 800px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/synchrotron.png" style="width: 800px">
 </div>
 </div>
 
-Machine learning segmentation of microCT images leverages advanced algorithms to automatically identify and differentiate intricate structures within high-resolution 3D scans, enabling more accurate and efficient analysis of complex biological and material samples. This approach significantly enhances the precision of microCT imaging by reducing manual processing time and improving the consistency of segmentation results across large datasets.
+We work with micro- or nano-scopic imaging systems - e.g. tomography beamlines at synchrotron facilities - to observe "ground truth" anatomy. Here we need a variety of methods and tools to segment, extract and quantify anatomical information in a way that is relatable to what we can observe with in- or ex-vivo MRI.
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
-### Machine Learning for Segmentation of Cells
+### Machine Learning for Segmentation
 
 <div class="row">
 <div class="col-sm-12 clearfix vcenter">
@@ -86,7 +78,7 @@ Machine learning segmentation of microCT images leverages advanced algorithms to
 </div>
 </div>
 
-Machine learning segmentation of microCT images leverages advanced algorithms to automatically identify and differentiate intricate structures within high-resolution 3D scans, enabling more accurate and efficient analysis of complex biological and material samples. This approach significantly enhances the precision of microCT imaging by reducing manual processing time and improving the consistency of segmentation results across large datasets.
+Segmentation paragraph - Mahsa
 
 <br>
 

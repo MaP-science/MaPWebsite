@@ -27,15 +27,51 @@ permalink: /publications/
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
-<h3><b> Andersson et al. Frontiers in Neuroimage. 2022</b> </h3>
-<h4> <i>Does powder averaging remove dispersion bias in diffusion MRI diameter estimates within real 3D axonal architectures?</i></h4>
+<h3><b> Perens et al. Neuroinformatics. 2023</b> </h3>
+<h4> <i>Multimodal 3D Mouse Brain Atlas Framework with the Skull-Derived Coordinate System</i></h4>
 
 <div class="row justify-content-center">
     <div class="col-sm-12">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/papers/andersson22.png" style="width: 800px">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/papers/perens24.png" style="width: 800px">
     </div>
-    <p><b> Abstract: </b> <i>"Noninvasive estimation of axon diameter with diffusion MRI holds the potential to investigate the dynamic properties of the brain network and pathology of neurodegenerative diseases. Recent studies use powder averaging to account for complex white matter architectures, but these have not been validated for real axonal geometries from regions that contain fibre crossings. Here, we present 120-304 μm long segmented axons from X-ray nano-holotomography volumes of a splenium and crossing fibre region of a vervet monkey brain. We show that the axons in the complex crossing fibre region, which contains callosal, association, and corticospinal connections, exhibit a wider diameter distribution than those of the splenium region. To accurately estimate the axon diameter in these regions, therefore, sensitivity to a wide range of diameters is required. We demonstrate how the q-value, b-value, signal-to-noise ratio and the assumed intra-axonal parallel diffusivity influence the range of measurable diameters with powder average approaches. Furthermore, we show how Gaussian distributed noise results in a wider range of measurable diameter at high b-values than Rician distributed noise, even at high signal-to-noise ratios of 100. The number of gradient directions is also shown to impose a lower bound on measurable diameter. Our results indicate that axon diameter estimation can be performed with only few b-shells, and that additional shells do not improve the accuracy of the estimate. For strong gradients available on human Connectom and preclinical scanners, Monte Carlo simulations of diffusion confirm that powder averaging techniques succeed in providing accurate estimates of axon diameter across a range of diameters, sequence parameters and diffusion times, even in complex white matter architectures. At relatively low b-values, the diameter estimate becomes sensitive to axonal microdispersion and the intra-axonal parallel diffusivity shows time dependency at both in vivo and ex vivo intrinsic diffusivities."
+    <p><b> Abstract: </b> <i> "Magnetic resonance imaging (MRI) and light-sheet fluorescence microscopy (LSFM) are technologies that enable non-disruptive 3-dimensional imaging of whole mouse brains. A combination of complementary information from both modalities is desirable for studying neuroscience in general, disease progression and drug efficacy. Although both technologies rely on atlas mapping for quantitative analyses, the translation of LSFM recorded data to MRI templates has been complicated by the morphological changes inflicted by tissue clearing and the enormous size of the raw data sets. Consequently, there is an unmet need for tools that will facilitate fast and accurate translation of LSFM recorded brains to in vivo, non-distorted templates. In this study, we have developed a bidirectional multimodal atlas framework that includes brain templates based on both imaging modalities, region delineations from the Allen’s Common Coordinate Framework, and a skull-derived stereotaxic coordinate system. The framework also provides algorithms for bidirectional transformation of results obtained using either MR or LSFM (iDISCO cleared) mouse brain imaging while the coordinate system enables users to easily assign in vivo coordinates across the different brain templates."
+    </i> </p>
+</div>
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
+<h3><b> Andersson et al. Proceedings of the National Academy of Sciences. 2020</b> </h3>
+<h4> <i>Axon morphology is modulated by the local environment and impacts the noninvasive investigationof its structure-function relationship</i></h4>
+
+<div class="row justify-content-center">
+    <div class="col-sm-6">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/papers/andersson20_2.png" style="width: 100%;">
+    </div>
+    <div class="col-sm-6">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/papers/andersson20.png" style="width: 100%;">
+    </div>
+    <div class="col-sm-12">
+    <p><b> Abstract: </b> <i>"Axonal conduction velocity, which ensures efficient function of the brain network, is related to axon diameter. Noninvasive, in vivo axon diameter estimates can be made with diffusion magnetic resonance imaging, but the technique requires three-dimensional (3D) validation. Here, high-resolution, 3D synchrotron X-ray nanoholotomography images of white matter samples from the corpus callosum of a monkey brain reveal that blood vessels, cells, and vacuoles affect axonal diameter and trajectory. Within single axons, we find that the variation in diameter and conduction velocity correlates with the mean diameter, contesting the value of precise diameter determination in larger axons. These complex 3D axon morphologies drive previously reported 2D trends in axon diameter and g-ratio. Furthermore, we find that these morphologies bias the estimates of axon diameter with diffusion magnetic resonance imaging and, ultimately, impact the investigation and formulation of the axon structure-function relationship."
     </i></p>
+    </div>
+</div>
+
+<hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
+
+<h3><b> Andersen et al. Brain Communications. 2020</b> </h3>
+<h4> <i>Disentangling white-matter damage from physiological fibre orientation dispersion in multiple sclerosis</i></h4>
+
+<div class="row justify-content-center">
+    <div class="col-sm-5">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/papers/andersen20.png" style="width: 100%;">
+    </div>
+    <div class="col-sm-7">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/papers/andersen20_2.png" style="width: 100%;">
+    </div>
+    <div class="col-sm-12">
+    <p><b> Abstract: </b> <i>"Multiple sclerosis leads to diffuse damage of the central nervous system, affecting also the normal-appearing white matter. Demyelination and axonal degeneration reduce regional fractional anisotropy in normal-appearing white matter, which can be routinely mapped with diffusion tensor imaging. However, the standard fractional anisotropy metric is also sensitive to physiological variations in orientation dispersion of white matter fibres. This complicates the detection of disease-related damage in large parts of cerebral white matter where microstructure physiologically displays a high degree of fibre dispersion. To resolve this ambiguity, we employed a novel tensor-valued encoding method for diffusion MRI, which yields a microscopic fractional anisotropy metric that is unaffected by regional variations in orientation dispersion. In 26 patients with relapsing-remitting multiple sclerosis, 14 patients with primary-progressive multiple sclerosis and 27 age-matched healthy controls, we compared standard fractional anisotropy mapping with the novel microscopic fractional anisotropy mapping method, focusing on normal-appearing white matter. Mean microscopic fractional anisotropy and standard fractional anisotropy of normal-appearing white matter were significantly reduced in both patient groups relative to healthy controls, but microscopic fractional anisotropy yielded a better reflection of disease-related white-matter alterations. The reduction in mean microscopic fractional anisotropy showed a significant positive linear relationship with physical disability, as reflected by the expanded disability status scale. Mean reduction of microscopic fractional anisotropy in normal-appearing white matter also scaled positively with individual cognitive dysfunction, as measured with the symbol digit modality test. Mean microscopic fractional anisotropy reduction in normal-appearing white matter also showed a positive relationship with total white-matter lesion load as well as lesion load in specific tract systems. None of these relationships between normal-appearing white-matter microstructure and clinical, cognitive or structural measures emerged when using mean fractional anisotropy. Together, the results provide converging evidence that microscopic fractional anisotropy mapping substantially advances the assessment of cerebral white matter in multiple sclerosis by disentangling microstructure damage from variations in physiological fibre orientation dispersion at the stage of data acquisition. Since tensor-valued encoding can be implemented in routine diffusion MRI, microscopic fractional anisotropy mapping bears considerable potential for the future assessment of disease progression in normal-appearing white matter in both relapsing-remitting and progressive forms of multiple sclerosis as well as other white-matter-related brain diseases."
+    </i></p>
+    </div>
 </div>
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->

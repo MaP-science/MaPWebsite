@@ -10,26 +10,38 @@ permalink: /funding.html
 
 <hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
 
-Tim will give an overview of funding sources here with logos.
-
-Here are some that might be relevant! 
+The work within the MaP group is funded by: 
 
 <div class="row">
 
 <div class="col-sm-3 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logo/novo_fonden_logo.png" style="width: 200px">
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo/novo_nordisk.png" style="width: 200px">
 </div>
 
 <div class="col-sm-6 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logo/lundbeck_fonden_logo.png" style="width: 450px">
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo/lundbeck_fonden.png" style="width: 450px">
 </div>
 
 <div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logo/erc_logo.png" style="width: 200px">
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo/erc.png" style="width: 200px">
 </div>
+
+<div class="col-sm-5 clearfix vcenter">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo/Villum_Fonden.png" style="width: 400px">
+</div>
+
+<div class="col-sm-6 clearfix vcenter">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo/mca.png" style="width: 400px">
+</div>
+
+<div class="col-sm-6 clearfix vcenter">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo/dff.png" style="width: 200px">
+</div>
+
+<div class="col-sm-6 clearfix vcenter">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logo/regionH.jpeg" style="width: 200px">
+</div>
+
 
 </div>
 
