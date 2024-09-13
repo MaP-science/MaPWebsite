@@ -50,3 +50,11 @@ figcaption {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+.carousel-caption {
+  display: none;
+}
+
+.item:hover .carousel-caption {
+  display: block;
+}
