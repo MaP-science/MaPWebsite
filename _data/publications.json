@@ -1,5 +1,201 @@
 [
-	{
+    {
+        "id": "http://zotero.org/users/2282383/items/Q25BFYEZ",
+        "type": "article-journal",
+        "abstract": "",
+        "container-title": "Frontiers in Neuroinformatics",
+        "DOI": "10.3389/fninf.2024.1354708",
+        "ISSN": "",
+        "journalAbbreviation": "Frontiers in Neuroinformatics",
+        "language": "en",
+        "page": "",
+        "source": "",
+        "title": "Exploring white matter dynamics and morphology through interactive numerical phantoms: The White Matter Generator",
+        "URL": "",
+        "volume": "",
+        "author": [
+            {
+                "family": "Winther",
+                "given": "S"
+            },
+            {
+                "family": "Peulicke",
+                "given": "O"
+            },
+            {
+                "family": "Andersson",
+                "given": "M"
+            },
+            {
+                "family": "Kjer",
+                "given": "HM"
+            },
+            {
+                "family": "Bærentzen",
+                "given": "JA"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        }
+    },
+
+    {
+        "id": "http://doi.org/10.1002/mrm.29991",
+        "type": "article-journal",
+        "abstract": "",
+        "container-title": "Magnetic Resonance in Medicine",
+        "DOI": "10.1002/mrm.29991",
+        "ISSN": "",
+        "journalAbbreviation": "Magn Reson Med",
+        "language": "en",
+        "page": "",
+        "source": "DOI.org",
+        "title": "Pore size estimation in axon-mimicking microfibres with diffusion-relaxation MRI",
+        "URL": "http://doi.org/10.1002/mrm.29991",
+        "volume": "",
+        "author": [
+            {
+                "family": "Canales-Rodríguez",
+                "given": "E. J."
+            },
+            {
+                "family": "Pizzolato",
+                "given": "M"
+            },
+            {
+                "family": "Zhou",
+                "given": "F. L."
+            },
+            {
+                "family": "Barakovic",
+                "given": "M"
+            },
+            {
+                "family": "Thiran",
+                "given": "J. P."
+            },
+            {
+                "family": "Jones",
+                "given": "D. K."
+            },
+            {
+                "family": "Parker",
+                "given": "G. J. M."
+            },
+            {
+                "family": "Dyrby",
+                "given": "T. B."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        }
+    },
+    
+    
+    {
+        "id": "https://doi.org/10.7554/eLife.94917.1",
+        "type": "article-journal",
+        "abstract": "",
+        "container-title": "eLife",
+        "DOI": "10.7554/eLife.94917.1",
+        "ISSN": "",
+        "journalAbbreviation": "eLife",
+        "language": "en",
+        "page": "",
+        "source": "DOI.org",
+        "title": "Bridging the 3D geometrical organisation of white matter pathways across anatomical length scales and species",
+        "URL": "https://doi.org/10.7554/eLife.94917.1",
+        "volume": "",
+        "author": [
+            {
+                "family": "Kjer",
+                "given": "HM"
+            },
+            {
+                "family": "Andersson",
+                "given": "M"
+            },
+            {
+                "family": "He",
+                "given": "Y"
+            },
+            {
+                "family": "Pacureanu",
+                "given": "A"
+            },
+            {
+                "family": "Daducci",
+                "given": "A"
+            },
+            {
+                "family": "Pizzolato",
+                "given": "M"
+            },
+            {
+                "family": "Salditt",
+                "given": "T"
+            },
+            {
+                "family": "Robisch",
+                "given": "AL"
+            },
+            {
+                "family": "Eckermann",
+                "given": "M"
+            },
+            {
+                "family": "Toepperwien",
+                "given": "M"
+            },
+            {
+                "family": "Dahl",
+                "given": "AB"
+            },
+            {
+                "family": "Elkjær",
+                "given": "ML"
+            },
+            {
+                "family": "Illes",
+                "given": "Z"
+            },
+            {
+                "family": "Ptito",
+                "given": "M"
+            },
+            {
+                "family": "Dahl",
+                "given": "VA"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        }
+    },
+	
+    {
 		"id": "http://zotero.org/users/2282383/items/Q25BFYEZ",
 		"type": "article-journal",
 		"abstract": "We enable the estimation of the per-axon axial diffusivity from single encoding, strongly diffusion-weighted, pulsed gradient spin echo data. Additionally, we improve the estimation of the per-axon radial diffusivity compared to estimates based on spherical averaging. The use of strong diffusion weightings in magnetic resonance imaging (MRI) allows to approximate the signal in white matter as the sum of the contributions from only axons. At the same time, spherical averaging leads to a major simplification of the modeling by removing the need to explicitly account for the unknown distribution of axonal orientations. However, the spherically averaged signal acquired at strong diffusion weightings is not sensitive to the axial diffusivity, which cannot therefore be estimated although needed for modeling axons — especially in the context of multi-compartmental modeling. We introduce a new general method for the estimation of both the axial and radial axonal diffusivities at strong diffusion weightings based on kernel zonal modeling. The method could lead to estimates that are free from partial volume bias with gray matter or other isotropic compartments. The method is tested on publicly available data from the MGH Adult Diffusion Human Connectome project. We report reference values of axonal diffusivities based on 34 subjects, and derive estimates of axonal radii from only two shells. The estimation problem is also addressed from the angle of the required data preprocessing, the presence of biases related to modeling assumptions, current limitations, and future possibilities.",
@@ -49,6 +245,46 @@
 			]
 		}
 	},
+
+    {
+        "id": "https://doi.org/10.1007/s12021-023-09623-9",
+        "type": "article-journal",
+        "abstract": "",
+        "container-title": "Neuroinformatics",
+        "DOI": "10.1007/s12021-023-09623-9",
+        "ISSN": "",
+        "journalAbbreviation": "Neuroinform",
+        "language": "en",
+        "page": "269–286",
+        "source": "DOI.org",
+        "title": "Multimodal 3D Mouse Brain Atlas Framework with the Skull-Derived Coordinate System",
+        "URL": "https://doi.org/10.1007/s12021-023-09623-9",
+        "volume": "21",
+        "author": [
+            {
+                "family": "Perens",
+                "given": "J"
+            },
+            {
+                "family": "Salinas",
+                "given": "C. G."
+            },
+            {
+                "family": "Roostalu",
+                "given": "U"
+            },
+            {
+                "family": "et al."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2023"
+                ]
+            ]
+        }
+    },    
 
 	{
 		"id": "http://zotero.org/users/2282383/items/UCA4JBAN",
@@ -104,110 +340,165 @@
 			]
 		}
 	},
+
     {
-        "id": "http://zotero.org/groups/2386072/items/KJAMBROSEN2021",
+        "id": "http://zotero.org/users/2282383/items/118718",
         "type": "article-journal",
-        "title": "Using connectomics for predictive assessment of brain parcellations",
-        "container-title": "NeuroImage",
-        "page": "1-18",
-        "volume": "238",
-        "source": "NeuroImage",
-        "DOI": "10.1016/j.neuroimage.2021.118170",
+        "abstract": "",
+        "container-title": "Neuroimage",
+        "DOI": "10.1016/j.neuroimage.2021.118718",
+        "ISSN": "",
+        "journalAbbreviation": "Neuroimage",
+        "language": "en",
+        "page": "118718",
+        "source": "",
+        "title": "Does powder averaging remove dispersion bias in diffusion MRI diameter estimates within real 3D axonal architectures?",
+        "URL": "",
+        "volume": "248",
         "author": [
             {
-                "family": "Albers",
-                "given": "KJ"
-            },
-            {
-                "family": "Ambrosen",
-                "given": "KS"
-            },
-            {
-                "family": "Liptrot",
-                "given": "MG"
-            },
-            {
-                "family": "Dyrby",
-                "given": "TB"
-            },
-            {
-                "family": "Schmidt",
-                "given": "MN"
-            },
-            {
-                "family": "Mørup",
+                "family": "Andersson",
                 "given": "M"
-            }
-        ],
-        "issued": {
-            "date-parts": [
-                [
-                    "2021"
-                ]
-            ]
-        }
-    },
-    {
-        "id": "http://zotero.org/groups/2386072/items/YAZNAR2021",
-        "type": "article-journal",
-        "title": "In vivo tensor-valued diffusion MRI of focal demyelination in white and deep grey matter of rodents",
-        "container-title": "NeuroImage. Clinical",
-        "page": "1-9",
-        "volume": "30",
-        "source": "NeuroImage. Clinical",
-        "DOI": "10.1016/j.nicl.2021.102675",
-        "author": [
-            {
-                "family": "He",
-                "given": "Y"
             },
             {
-                "family": "Aznar",
-                "given": "S"
+                "family": "Pizzolato",
+                "given": "M"
             },
             {
-                "family": "Siebner",
-                "given": "HR"
+                "family": "Kjer",
+                "given": "HM"
             },
             {
-                "family": "Dyrby",
-                "given": "TB"
-            }
-        ],
-        "issued": {
-            "date-parts": [
-                [
-                    "2021"
-                ]
-            ]
-        }
-    },
-    {
-        "id": "http://zotero.org/groups/2386072/items/LUNDELL2021",
-        "type": "article-journal",
-        "title": "Cytosolic diffusivity and microscopic anisotropy of N-acetyl aspartate in human white matter with diffusion-weighted MRS at 7 T",
-        "container-title": "NMR in Biomedicine",
-        "page": "1-14",
-        "volume": "34",
-        "issue": "5",
-        "source": "NMR in Biomedicine",
-        "DOI": "10.1002/nbm.4304",
-        "author": [
+                "family": "Skodborg",
+                "given": "KF"
+            },
             {
                 "family": "Lundell",
                 "given": "H"
             },
             {
-                "family": "Ingo",
-                "given": "C"
-            },
-            {
                 "family": "Dyrby",
                 "given": "TB"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2022"
+                ]
+            ]
+        }
+    },
+
+    {
+        "id": "https://doi.org/10.1038/s41598-022-21741-z",
+        "type": "article-journal",
+        "abstract": "",
+        "container-title": "Scientific Reports",
+        "DOI": "10.1038/s41598-022-21741-z",
+        "ISSN": "",
+        "journalAbbreviation": "Sci Rep",
+        "language": "en",
+        "page": "17289",
+        "source": "DOI.org",
+        "title": "3D synchrotron imaging of muscle tissues at different atrophic stages in stroke and spinal cord injury: a proof-of-concept study",
+        "URL": "https://doi.org/10.1038/s41598-022-21741-z",
+        "volume": "12",
+        "author": [
+            {
+                "family": "Pingel",
+                "given": "J"
             },
             {
-                "family": "Ronen",
+                "family": "Kjer",
+                "given": "HM"
+            },
+            {
+                "family": "Biering-Sørensen",
+                "given": "F"
+            },
+            {
+                "family": "et al."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2022"
+                ]
+            ]
+        }
+    },
+    
+    {
+        "id": "https://doi.org/10.1186/s40850-021-00101-w",
+        "type": "article-journal",
+        "abstract": "",
+        "container-title": "BMC Zoology",
+        "DOI": "10.1186/s40850-021-00101-w",
+        "ISSN": "",
+        "journalAbbreviation": "BMC Zool",
+        "language": "en",
+        "page": "10",
+        "source": "DOI.org",
+        "title": "InSegtCone: interactive segmentation of crystalline cones in compound eyes",
+        "URL": "https://doi.org/10.1186/s40850-021-00101-w",
+        "volume": "7",
+        "author": [
+            {
+                "family": "Tichit",
+                "given": "P"
+            },
+            {
+                "family": "Zhou",
+                "given": "T"
+            },
+            {
+                "family": "Kjer",
+                "given": "HM"
+            },
+            {
+                "family": "et al."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2022"
+                ]
+            ]
+        }
+    },
+    
+    {
+        "id": "https://doi.org/10.1038/s41598-021-03726-6",
+        "type": "article-journal",
+        "abstract": "",
+        "container-title": "Scientific Reports",
+        "DOI": "10.1038/s41598-021-03726-6",
+        "ISSN": "",
+        "journalAbbreviation": "Sci Rep",
+        "language": "en",
+        "page": "24335",
+        "source": "DOI.org",
+        "title": "Evaluation of 2D super-resolution ultrasound imaging of the rat renal vasculature using ex vivo micro-computed tomography",
+        "URL": "https://doi.org/10.1038/s41598-021-03726-6",
+        "volume": "11",
+        "author": [
+            {
+                "family": "Andersen",
+                "given": "SB"
+            },
+            {
+                "family": "Taghavi",
                 "given": "I"
+            },
+            {
+                "family": "Kjer",
+                "given": "HM"
+            },
+            {
+                "family": "et al."
             }
         ],
         "issued": {
@@ -217,107 +508,142 @@
                 ]
             ]
         }
-    },
+    },    
+
     {
-        "id": "http://zotero.org/groups/2386072/items/PERENS2021",
+        "id": "http://zotero.org/users/2282383/items/33649",
         "type": "article-journal",
-        "title": "An Optimized Mouse Brain Atlas for Automated Mapping and Quantification of Neuronal Activity Using iDISCO+ and Light Sheet Fluorescence Microscopy",
-        "container-title": "Neuroinformatics",
-        "page": "433-446",
-        "volume": "19",
-        "issue": "3",
-        "source": "Neuroinformatics",
-        "DOI": "10.1007/s12021-020-09490-8",
+        "abstract": "",
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "DOI": "10.1073/pnas.2012533117",
+        "ISSN": "",
+        "journalAbbreviation": "PNAS",
+        "language": "en",
+        "page": "33649-33659",
+        "source": "",
+        "title": "Axon morphology is modulated by the local environment and impacts the non-invasive investigation of its structure-function relationship",
+        "URL": "",
+        "volume": "117",
         "author": [
             {
-                "family": "Perens",
+                "family": "Andersson",
+                "given": "M"
+            },
+            {
+                "family": "Kjer",
+                "given": "HM"
+            },
+            {
+                "family": "Rafael-Patino",
                 "given": "J"
             },
             {
-                "family": "Salinas",
-                "given": "CG"
+                "family": "Pacureanu",
+                "given": "A"
             },
             {
-                "family": "Skytte",
-                "given": "JL"
+                "family": "Pakkenberg",
+                "given": "B"
             },
             {
-                "family": "Roostalu",
-                "given": "U"
+                "family": "Thiran",
+                "given": "JP"
+            },
+            {
+                "family": "Ptito",
+                "given": "M"
+            },
+            {
+                "family": "Bech",
+                "given": "M"
             },
             {
                 "family": "Dahl",
                 "given": "AB"
             },
             {
+                "family": "Dahl",
+                "given": "VA"
+            },
+            {
                 "family": "Dyrby",
                 "given": "TB"
-            },
-            {
-                "family": "Wichern",
-                "given": "F"
-            },
-            {
-                "family": "Barkholt",
-                "given": "P"
-            },
-            {
-                "family": "Vrang",
-                "given": "N"
-            },
-            {
-                "family": "Jelsing",
-                "given": "J"
-            },
-            {
-                "family": "Hecksher-Sørensen",
-                "given": "J"
             }
         ],
         "issued": {
             "date-parts": [
                 [
-                    "2021"
+                    "2020"
                 ]
             ]
         }
     },
+
     {
-        "id": "http://zotero.org/groups/2386072/items/SKOVEN2021",
+        "id": "http://zotero.org/users/2282383/items/fcaa077",
         "type": "article-journal",
-        "title": "Profiling the transcallosal response of rat motor cortex evoked by contralateral optogenetic stimulation of glutamatergic cortical neurons",
-        "container-title": "bioRxiv",
-        "page": "1-31",
-        "source": "bioRxiv",
-        "DOI": "10.1101/2021.04.15.439619",
+        "abstract": "",
+        "container-title": "Brain Communications",
+        "DOI": "10.1093/braincomms/fcaa077",
+        "ISSN": "",
+        "journalAbbreviation": "Brain Commun",
+        "language": "en",
+        "page": "fcaa077",
+        "source": "",
+        "title": "Disentangling white-matter damage from physiological fiber orientation dispersion in multiple sclerosis",
+        "URL": "",
+        "volume": "2",
         "author": [
             {
-                "family": "Skoven",
-                "given": "C"
+                "family": "Andersen",
+                "given": "KW"
             },
             {
-                "family": "Tomasevic",
-                "given": "L"
+                "family": "Lasič",
+                "given": "S"
             },
             {
-                "family": "Kvitsiani",
+                "family": "Lundell",
+                "given": "H"
+            },
+            {
+                "family": "Nilsson",
+                "given": "M"
+            },
+            {
+                "family": "Topgaard",
                 "given": "D"
             },
             {
-                "family": "Dyrby",
-                "given": "TB"
+                "family": "Sellebjerg",
+                "given": "F"
+            },
+            {
+                "family": "Szczepankiewicz",
+                "given": "F"
             },
             {
                 "family": "Siebner",
                 "given": "HR"
+            },
+            {
+                "family": "Blinkenberg",
+                "given": "M"
+            },
+            {
+                "family": "Dyrby",
+                "given": "TB"
             }
         ],
         "issued": {
             "date-parts": [
                 [
-                    "2021"
+                    "2020"
                 ]
             ]
         }
     }
-]
+    
+    
+    
+] 
