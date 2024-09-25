@@ -30,7 +30,7 @@ Tractography paragraph - Thina or Marco
 </div>
 </div>
 
-MRI paragraph - Mario or Emma
+We use quantitative MRI techniques to investigate the microstructural properties of the brain. We combine diffusion, relaxometry, and magnetization transfer imaging to study the integrity of white matter tracts, the distribution of myelin and the cytoarchitecture of the brain in preclinical and clinical settings. These methods provide valuable insights into the underlying neurobiological processes in health and disease, with potential applications in neurodegenerative disorders, psychiatric conditions, and developmental neuroscience.
 
 <hr style="border-top: 1px solid #f2f2f2;"> <!-- Add a faint horizontal line here -->
 
