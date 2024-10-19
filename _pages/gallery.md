@@ -14,25 +14,39 @@ permalink: /gallery.html
 
 ---
 
+### October 5, 2024 
+
+<div class="row justify-content-center">
+<div class="col-sm-6 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/esmrmb.jpg" style="width: 600px">
+</div>
+<div class="col-sm-6 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/esmrmb_2.jpg" style="width: 600px">
+</div>
+</div>
+
+
+*Marco and Tim having a great time at ESMRMB in Barcelona! They ran an interactive machine learning session in the workshop, getting everyone involved in some hands-on learning. Big thanks to Miren for helping make it happen!*
+
 ### May 15, 2024 
 
 <div class="row justify-content-center">
-<div class="col-sm-7">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim.jpeg" style="width: 520px">
+<div class="col-sm-7 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim.jpeg" style="width: 650px">
 </div>
-<div class="col-sm-5">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim_2.jpeg" style="width: 400px">
+<div class="col-sm-5 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim_2.jpeg" style="width: 500px">
 </div>
 </div>
 
 *Today Mariam and Tim prepped fresh rat brain samples for cryo-EM. It's a race against the clock to avoid tissue degeneration, so they had to move quickly. Thanks to Mariam’s meticulous planning, and last weeks practice a minute-by-minute timeline was created - one that they actually managed to beat on the day!*
 
 <div class="row justify-content-center">
-<div class="col-sm-6">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim_3.jpeg" style="width: 500px">
+<div class="col-sm-6 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim_3.jpeg" style="width: 600px">
 </div>
-<div class="col-sm-5">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim_4.jpeg" style="width: 500px">
+<div class="col-sm-5 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/cfim_4.jpeg" style="width: 600px">
 </div>
 </div>
 
@@ -46,24 +60,24 @@ permalink: /gallery.html
 ### May 8, 2024 
 
 <div class="row justify-content-center">
-<div class="col-sm-7">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/ismrm24.png" style="width: 580px">
+<div class="col-sm-7 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/ismrm24.png" style="width: 680px">
 </div>
-<div class="col-sm-5">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/ismrm24_2.jpg" style="width: 400px">
+<div class="col-sm-5 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/ismrm24_2.jpg" style="width: 480px">
 </div>
 </div>
 
 
-*At ISMRM 2024 in Singapore, our team had an exciting time during the poster presentation sessions. Mario assisted Mariam with her virtual presentation on ‘[Insert Mariam’s Poster Title]’, while Thina presented her poster on ‘[Insert Thina’s Poster Title]'*
+*At ISMRM 2024 in Singapore, our team had an exciting time during the poster presentation sessions. Mario assisted Mariam with her virtual presentation on ‘Unravelling Microstructural Age-Related Changes In The Acoustic Radiations Through Advanced Diffusion MRI Analysis’, while Thina presented her poster on ‘Axonal Fraction Imaging On Clinical And Preclinical DMRI PGSE Data'*
 
 ---
 
 ### January 19, 2024
 
 <div class="row justify-content-center">
-<div class="col-sm-12">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/workshop.jpg" style="width: 600px">
+<div class="col-sm-12 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/workshop.jpg" style="width: 700px">
 </div>
 </div>
 
@@ -74,11 +88,11 @@ permalink: /gallery.html
 ### December 4, 2023
 
 <div class="row justify-content-center">
-<div class="col-sm-5">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/desy_2.jpg" style="width: 400px">
+<div class="col-sm-5 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/desy_2.jpg" style="width: 500px">
 </div>
 <div class="col-sm-6">
-<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/desy.png" style="width: 550px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/desy.png" style="width: 700px">
 </div>
 </div>
 
