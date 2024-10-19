@@ -10,7 +10,7 @@ permalink: /
 
 ## Objectives:
 
-The MAP group is a research lab based in the Captial Region of Denmark near Copenhagen. We aim to achieve a fundamental understanding of brain structure and its plasticity at various levels. This ranges from studying isolated tissue compartments, such as microstructures including cellular spaces, neurons, and cell membranes, to visualizing and statistically analyzing whole brain connectivity networks. The goal is to understand the impact of these structures and networks on both normal and disrupted brain function.
+The MAP group is a research lab based in the Captial Region of Denmark near Copenhagen. We aim to achieve a fundamental understanding of brain structure and its plasticity at various levels as well as how it encode brain function. This ranges from studying isolated tissue compartments, such as microstructures including cellular spaces, neurons, and cell membranes, to visualizing and statistically analyzing whole brain connectivity networks. The goal is to understand and to predict the impact of these structures and networks on both normal and disrupted brain function. To achive our goal we create a translational holistic 3D view of the brain that span many anatomical length scales by combining pre- and clinical MRI, X-ray Nano Holotomogray (XNH) and Light-Sheet microscopic imaging.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -54,7 +54,7 @@ The MAP group is a research lab based in the Captial Region of Denmark near Cope
 <br>
 
 ## Affliliations: 
-The Microstructure and Plasticity (MAP) group is split between two research faciliates: the Danish Research Centre for Magnetic Resonance based at Hvidovre Hospital and DTU Compute at the Danish Technical University.
+The Microstructure and Plasticity (MAP) group is situated at two research faciliates: the Danish Research Centre for Magnetic Resonance based at Copenhagen University Hospital Hvidovre and the Visual Computing section at the Danish Technical University (DTU).
 
 <div class="row">
 
@@ -70,15 +70,14 @@ The Microstructure and Plasticity (MAP) group is split between two research faci
 
 </div>
 
-See our funding and ongoing projects at our [Funding page](funding).
+See our funding sources on our [Funding page](funding).
 
 <br>
 
 ## Research:
 
-Our research focuses on developing non-invasive diffusion MRI and quantitative MRI techniques to push the limits of clinical microstructure imaging. We also use synchrotron imaging, such as X-ray Nano Holotomography (XNH), to quantify neuronal morphology and to map cytoarchitecture, and Light-Sheet Fluorescence Microscopy for cell-type-specific labeling. Our work generates large multi-modal 3D datasets to be analysed, from which we construct multi-modal brain atlases. We develop biophysical models to quantify microstructure and machine learning-based models for axon, myelin and soma 3D segmentation and quantifications as well as for brain connectom mapping, such as tractography-based methods.
+Our research focuses on developing non-invasive diffusion MRI and quantitative MRI techniques to push the limits of clinical microstructure imaging. We also use 3D synchrotron imaging, such as X-ray Nano Holotomography (XNH), to quantify neuronal morphology and to map cytoarchitecture, and Light-Sheet Fluorescence Microscopy for whole-brain cell-type-specific labeling. Our work generates large multi-modal 3D datasets to be analysed, from which we construct multi-modal brain atlases. We develop biophysical models to quantify microstructure organisation and morpholgy and machine learning-based models for axon, myelin and soma 3D segmentation and quantifications as well as for brain connectom mapping, such as tractography-based methods. For correlating brain structure with function, we use animal models and optogenetic-based brain stimulation to map brain function from electrophysiological recordings. 
 
-You can find a more indepth overview of our research at our [Research page](research).
+<!-- You can find a more indepth overview of our research at our [Research page](research). -->
 
- 
 <br>
