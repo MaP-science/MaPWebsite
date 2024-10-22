@@ -6,6 +6,10 @@ sitemap: false
 permalink: /
 ---
 
+<div class="text-center">
+  <img style="position:relative; left:0px" src="/images/logo/footer_logo.png" height="200" width="auto" class="rounded float-right" alt="Lab Logo">
+</div>
+
 <hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
 
 ## Objectives:
