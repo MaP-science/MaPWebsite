@@ -1,7 +1,17 @@
+- date: 02/12/24
+  headline: "Job Opportunity: PhD position in Machine Learning for Neuronal Feature Identification in 3D Microscopic Imaging - DTU Compute"
+  title: "PhD position in Machine Learning for Neuronal Feature Identification in 3D Microscopic Imaging"
+  logo: DTU
+  tags:
+    - job opportunity
+    - light-sheet microscopy
+    - phd 
+  content: Do you want to join a multidisciplinary team working with a new 3D optical imaging technology and develop machine learning models to map in the brain neuronal and cellular objects, their geometry, density and organization? Are you interested in learning about 3D imaging analysis, brain anatomy, collect your own high-quality microscopic data as well as generating synthetic cellular environments to evaluate and train your model? Are you intrigued by solving challenges working with big data? Are you eager to develop innovative solutions in a groundbreaking project at the intersection of neuroimaging and machine learning? If yes, we encourage you to apply and join our team! For more info & to apply, <a href="https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4412/?utm_medium=jobshare">click here</a> or contact Professor Tim B. Dyrby at timd@drcmr.dk
+
 - date: 10/10/24
   headline: "Grant: Congratulations to Piyush Swami for receiving a DTU Discovery Grant"
   title: "Congratulations to Piyush Swami for receiving a DTU Discovery Grant"
-  logo: DRCMR
+  logo: DTU
   tags:
     - grant
   content: Congratulations to MaP postdoc Piyush Swami for receiving a DTU Discovery Grant for his work on lightsheet microscopy. 🎉🔬
