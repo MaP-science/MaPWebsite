@@ -1,6 +1,15 @@
+- date: 05/02/25
+  headline: "Talk: Professor Tim Dyrby gave a talk today on measuring axonal conduction velocity as part of #CNStalks"
+  title: "Professor Tim Dyrby gave a talk today on measuring axonal conduction velocity as part of #CNStalks"
+  logo: DRCMR
+  tags:
+    - talks
+  content: Professor Tim Dyrby gave a talk today as part of the Clinical Neuroanatomy Seminars on how different methods shape our understanding of axonal conduction velocity. No worries if you missed it, you can watch the recording <a href="https://www.youtube.com/live/y9DXGMd7O38">here</a>.
+
+
 - date: 02/12/24
-  headline: "Job Opportunity: PhD position in Machine Learning for Neuronal Feature Identification in 3D Microscopic Imaging - DTU Compute"
-  title: "PhD position in Machine Learning for Neuronal Feature Identification in 3D Microscopic Imaging"
+  headline: "Job Opportunity: PhD position in Machine Learning for Neuronal Feature Identification in 3D Microscopic Imaging - DTU Compute [Expired]"
+  title: "PhD position in Machine Learning for Neuronal Feature Identification in 3D Microscopic Imaging [Expired]"
   logo: DTU
   tags:
     - job opportunity
