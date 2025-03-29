@@ -14,6 +14,21 @@ permalink: /gallery.html
 
 ---
 
+### February 18, 2025 
+
+<div class="row justify-content-center">
+<div class="col-sm-6 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/kyoto1.png" style="width: 520px">
+</div>
+<div class="col-sm-6 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/kyoto2.jpg" style="width: 600px">
+</div>
+</div>
+
+
+*Tim, Marco and Thina went to the ISMRM Diffusion Study Group workshop in Kyoto, Japan, where Tim gave a talk called Microstructure of the Brain: Recent Advances in Validation*
+
+
 ### October 5, 2024 
 
 <div class="row justify-content-center">
