@@ -16,7 +16,7 @@ permalink: /
 
 The MAP group is a research lab based in the Captial Region of Denmark near Copenhagen. We aim to achieve a fundamental understanding of brain structure and its plasticity at various levels as well as how it encode brain function. This ranges from studying isolated tissue compartments, such as microstructures including cellular spaces, neurons, and cell membranes, to visualizing and statistically analyzing whole brain connectivity networks. The goal is to understand and to predict the impact of these structures and networks on both normal and disrupted brain function. To achive our goal we create a translational holistic 3D view of the brain that span many anatomical length scales by combining pre- and clinical MRI, X-ray Nano Holotomogray (XNH) and Light-Sheet microscopic imaging.
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
