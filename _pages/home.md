@@ -22,6 +22,7 @@ The MAP group is a research lab based in the Captial Region of Denmark near Cope
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Items -->
@@ -39,7 +40,13 @@ The MAP group is a research lab based in the Captial Region of Denmark near Cope
               </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/alexander19.png" height="4" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/teambuildingday.png" height="4" alt="Slide 3" />
+             <div class="carousel-caption">
+                <p>Us at the most recent teambulding day! - March 2025 </p>
+              </div>
+        </div>     
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/alexander19.png" height="4" alt="Slide 4" />
              <div class="carousel-caption">
                 <p>Alexander DC, Dyrby TB, Nilsson M, Zhang H. Imaging brain microstructure with diffusion MRI: practicality and applications. NMR Biomed. 2019</p>
               </div>
