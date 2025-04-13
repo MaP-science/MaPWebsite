@@ -1,4 +1,26 @@
 - date: 05/02/25
+  headline: "Video: Professor Tim Dyrby gave April's MicroClub talk. Watch the full talk here!"
+  title: "Professor Tim Dyrby gave April's MicroClub talk. Watch the full talk here!"
+  logo: DRCMR
+  tags:
+    - talks
+    - video
+  content: |
+    Professor Tim Dyrby gave April’s MicroClub talk on “White Matter Microstructure, 3D Organization Across Scales, and Its Functional Relationship: Can We Trust Diffusion MRI Predictions?” You can watch the talk full interview <a href="https://youtu.be/BaJdj8XYisg">here</a> (or below!).
+
+
+    <div style="display: flex; justify-content: center; margin: 30px 0;">
+      <div style="position: relative; width: 80%; padding-bottom: 45%; height: 0; overflow: hidden;">
+        <iframe src="https://www.youtube.com/embed/BaJdj8XYisg"
+                frameborder="0"
+                allowfullscreen
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+      </div>
+    </div>
+
+
+- date: 05/02/25
   headline: "Video: Did you know? Zooming into an MRI voxel, axons appear organized as laminar structures—even when crossing!"
   title: "Did you know? Zooming into an MRI voxel, axons appear organized as laminar structures—even when crossing!"
   logo: DTU
@@ -16,6 +38,7 @@
               title="Embedded post">
       </iframe>
     </div>
+
 
 - date: 26/02/25
   headline: "ISMRMs Diffusion MRI Tractography Study Group recommendations"
