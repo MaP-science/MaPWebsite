@@ -17,12 +17,18 @@ permalink: /gallery.html
 ### March 14, 2025 
 
 <div class="row justify-content-center">
+<div class="col-sm-7 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/teambuildingday2.jpg" style="width: 790px">
+</div>
+<div class="col-sm-5 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/teambuildingday3.jpg" style="width: 380px">
+</div>
 <div class="col-sm-12 text-center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/gallery/teambuildingday.jpg" style="width: 1000px">
 </div>
 </div>
 
-*The MaP Lab team had a fantastic Teambuilding Day! We took a break from our usual routine to reflect on our work and how it fits into the bigger picture. With "MaP the MAP!", we explored the vision behind our research and how each piece contributes to the whole. It was a great opportunity to align as a team and foster new collaborations!*
+*One full day MAP team building retreat in the central part of Copenhagen with the focus on updating everybody on what our values are both personally and as a cross-disciplinary research team. We MaP'ed how are expertises are connected and shaped our overall vision.*
 
 ### February 18, 2025 
 
