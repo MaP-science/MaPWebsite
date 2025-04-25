@@ -6,5 +6,18 @@ layout: default
 	{{ content }}
   </div>
   <div id="newsid" class="col-sm-4" >
-	{% include news.html%}
+    <h2>News</h2>
+  <hr style="border-top: 3px solid #e1e3e3;"> <!-- Add a faint horizontal line here -->
+    <ul class="list-unstyled">
+      {% for article in site.data.news %}
+        {% assign anchor_id = article.date | replace: '/', '-' | append: '-' | append: article.headline | slugify %}
+        <li>
+          <a href="/news.html#{{ anchor_id }}" style="color: inherit; text-decoration: none;">
+            <strong>{{ article.date }}</strong><br>
+            {{ article.headline }}
+          </a>
+          <hr>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
