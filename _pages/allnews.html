@@ -1,0 +1,23 @@
+---
+title: "News"
+layout: textlay
+excerpt: "Microstructure and Plasticity"
+sitemap: false
+permalink: /allnews.html
+---
+
+# News
+---
+
+<ul class="list-unstyled">
+  {% for article in site.data.news %}
+    {% assign anchor_id = article.date | replace: '/', '-' | append: '-' | append: article.headline | slugify %}
+    <li>
+      <a href="/news.html#{{ anchor_id }}" style="text-decoration: none; color: inherit;">
+        <strong>{{ article.date }}</strong><br>
+        {{ article.headline }}
+      </a>
+      <hr>
+    </li>
+  {% endfor %}
+</ul>
