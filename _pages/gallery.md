@@ -14,6 +14,16 @@ permalink: /gallery.html
 
 ---
 
+### May 15, 2025 
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/hawaii.png" style="width: 1100px">
+</div>
+</div>
+
+*Aloha from MaP! 🌺 We attended the ISMRM 2025 conference in Hawaii, where we had the opportunity to present several posters, exchange ideas, and connect with colleagues across the field. As a group we were well represented both in the scientific sessions and in discussions over dinners! We are excited to bring back new knowledge and collaborations to further enhance our work!*
+
 ### March 14, 2025 
 
 <div class="row justify-content-center">
