@@ -14,6 +14,17 @@ permalink: /gallery.html
 
 ---
 
+### June 06, 2025 
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/beamtime.png" style="width: 1100px">
+</div>
+</div>
+
+*Throughout 2024 and 2025, Emma and August have been spending much time at the DanMAX beamline at the MAX IV Laboratory in Lund, Sweden. They have been part of the development of an improved optics set up and the imaging of brain and bone samples at sub micron resolutions.*
+
+
 ### May 15, 2025 
 
 <div class="row justify-content-center">
