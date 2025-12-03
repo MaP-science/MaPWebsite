@@ -14,6 +14,40 @@ permalink: /gallery.html
 
 ---
 
+### November 14, 2025 
+
+<div class="row justify-content-center">
+<div class="col-sm-6 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/sfn2025.jpg" style="width: 580px">
+</div>
+<div class="col-sm-5 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/sfn2025_2.png" style="width: 520px">
+</div>
+</div>
+
+*MaP’s Joao had a poster at this years Society for Neuroscience meeting in Washington, D.C. entitled ‘MRI detection of myelin loosening and remylination dynamics via the Structural Myelin Integrity metric’*
+
+### October 13, 2025 
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/ist2025.png" style="width: 1100px">
+</div>
+</div>
+
+*This October, Tim and Mojtaba headed off to Bordeaux for the International Society for Tractography conference. Here Mojtaba had a power pitch and poster entitled “Curvature Properties on Estimating Asymmetric Fiber Orientation Distribution”.*
+
+
+### October 08, 2025 
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/esmrmb2025.png" style="width: 1100px">
+</div>
+</div>
+
+*The MaP team were a core part of the 2025 ESMRMB pre-congress workshop on Microstructural Imaging in Marseille, France. The day was a great success with many brilliant talks and a very thought provoking panel discussion. Mariam gave a keynote talk titled: Virtual Tissues, Real Insights: Simulating Biological Microstructure for MRI.*
+
 ### June 06, 2025 
 
 <div class="row justify-content-center">
