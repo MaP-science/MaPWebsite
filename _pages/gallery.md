@@ -14,6 +14,16 @@ permalink: /gallery.html
 
 ---
 
+### March 10, 2026
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/xcthackathon.png" style="width: 1100px">
+</div>
+</div>
+
+*MaP members organised and joined a one-day hackathon for the Extreme-CT Novo Nordisk Foundation Synergy project. We’re exploring methods and tools for interactive segmentation and reconstruction optimization of extremely large, high-resolution 3D X-ray CT images of multiscale biological tissue.  The hackathon was a great opportunity for hands-on collaboration, with colleagues joining from Aarhus University, DanMAX, DTU Compute, DTU Physics, the 3D Imaging Centre (3DIM DTU), Amager and Hvidovre Hospital, the Danish Research Centre for Magnetic Resonance (DRCMR), and Lund University.*
+
 ### November 14, 2025 
 
 <div class="row justify-content-center">
