@@ -22,35 +22,28 @@ The MAP group is a research lab based in the Captial Region of Denmark near Cope
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/group_photo.png" height="4" alt="Slide 1" />
-            <div class="carousel-caption">
-                <p>Current team</p>
-              </div>
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/dtu_compute.png" class="img-responsive" height="4" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/dtu_compute.png" height="4" alt="Slide 1" />
             <div class="carousel-caption">
                 <p>DTU Compute</p>
               </div>
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/teambuildingday.png" height="4" alt="Slide 3" />
-             <div class="carousel-caption">
-                <p>Us at the most recent teambulding day! - March 2025 </p>
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/teambuildingday.png" class="img-responsive" height="4" alt="Slide 2" />
+            <div class="carousel-caption">
+                <p>Us at the most recent teambulding day! - March 2025</p>
               </div>
-        </div>     
+        </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/alexander19.png" height="4" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/alexander19.png" height="4" alt="Slide 3" />
              <div class="carousel-caption">
-                <p>Alexander DC, Dyrby TB, Nilsson M, Zhang H. Imaging brain microstructure with diffusion MRI: practicality and applications. NMR Biomed. 2019</p>
+                <p>Alexander DC, Dyrby TB, Nilsson M, Zhang H. Imaging brain microstructure with diffusion MRI: practicality and applications. NMR Biomed. 2019 </p>
               </div>
-        </div>     
+        </div>        
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
