@@ -14,6 +14,16 @@ permalink: /gallery.html
 
 ---
 
+### May 21, 2026
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/mariodefense.png" style="width: 1100px">
+</div>
+</div>
+
+*Mario successfully defended his PhD thesis on May 21, 2026! Congratulations Mario!*
+
 ### March 10, 2026
 
 <div class="row justify-content-center">
