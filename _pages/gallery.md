@@ -14,6 +14,26 @@ permalink: /gallery.html
 
 ---
 
+### September 30, 2026
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/esmrmb2026.png" style="width: 1100px">
+</div>
+</div>
+
+*MaP’s Mariam Andersson co-chaired the ESMRMB Precongress Workshop on Microstructure Imaging in Girona, with Emma Thomson serving on the organising committee. It was a busy day of educational talks, power pitches and a panel discussion asking: “Are We Solving the Right Problem for Microstructure Imaging to Have a Real Impact?”*
+
+### August 13, 2026
+
+<div class="row justify-content-center">
+<div class="col-sm-13 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/gallery/masri2026.png" style="width: 1100px">
+</div>
+</div>
+
+*MaP’s Mahsa Amirrashedi and Emma Thomson presented their work at MASRi in Helsingør. It was a great few days of science and networking, with the solar eclipse providing an especially memorable addition!*
+
 ### May 21, 2026
 
 <div class="row justify-content-center">
